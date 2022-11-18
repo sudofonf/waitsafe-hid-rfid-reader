@@ -1,0 +1,9 @@
+from keyboard_alike import reader
+def start_reading(VendorID, ProductID):
+
+	cursor = reader.Reader(VendorID, ProductID, 84, 16, should_reset=False)
+	cursor.initialize()
+	while True:
+		return cursor.read().strip()
+
+
