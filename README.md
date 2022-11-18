@@ -7,3 +7,4 @@ Code necesarry for launching hid rfid reader with rabbitmq
 sudo python waitsafe-hid-rfid-reader/pyusb_keyboard_alike/test.py
 ```
 
+Executable is in pyusb_keyboard_alike folder 
